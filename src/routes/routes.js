@@ -1,3 +1,7 @@
 import  addnewProduct from 'controllers'
 
-app.route('/products').post(addnewProduct);
+export const addnewProduct = (req, res) => {
+
+    app.route('/products').post(addnewProduct);
+
+}
