@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-let schema = mongoose.schema;
+const schema = mongoose.schema;
 
 var Products = new schema({
     name     : String
