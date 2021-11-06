@@ -1,7 +1,7 @@
-import  addnewProduct from 'controllers'
+import  { addnewProduct } from '../controllers/controllers';
 
-export const addnewProduct = (req, res) => {
-
-    app.route('/products').post(addnewProduct);
+const routes = (app) => {
+app.routes('/products').post(addnewProduct);
 
 }
+export default routes;
