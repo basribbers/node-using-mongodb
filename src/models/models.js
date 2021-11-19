@@ -6,5 +6,5 @@ export const ProductSchema = new Schema({
     name     : String
   , description       : String
   , catogery    : String
-  ,created_date : {type:date , default: Date.now}
+  ,created_date : {type:Date , default: Date.now}
 });
