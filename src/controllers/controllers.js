@@ -10,7 +10,7 @@ export const addnewProduct = (req, res) => { let newProduct = new Product(req.bo
           res.send(err);
         }
         res.json(Product);
-      })
+      });
     }
 
 export const getProducts = (req, res) =>
@@ -19,7 +19,7 @@ export const getProducts = (req, res) =>
   res.send(err);
   }
 res.json(Product);
-})
+});
 }
 
 export const getProductWithID = (req, res) => {
@@ -28,7 +28,7 @@ export const getProductWithID = (req, res) => {
   res.send(err);
   }
 res.json(Product);
-})
+});
 }
 
 
