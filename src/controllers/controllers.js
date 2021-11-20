@@ -13,7 +13,8 @@ export const addnewProduct = (req, res) => { let newProduct = new Product(req.bo
       })
     }
 
-export const getProducts = (req,res) => { Product.find((err,Product) => {
+export const getProducts = (req, res) =>
+ { Product.find({},(err,Product) => {
   if (err){
   res.send(err);
   }
